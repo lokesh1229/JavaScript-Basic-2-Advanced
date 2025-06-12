@@ -1,15 +1,21 @@
-const a = ["apple","banana","kiwi"];
+const b = ["apple","banana","kiwi"];
 
-a.pop(); //removes last element
+b.pop(); //removes last element
 
-console.log(a);
+console.log(b);
 
-a.push("kiwi");
+b.push("kiwi");
 
-console.log(a.slice(1));
 
-console.log(a.slice(0,2));
+c = ["html","css","js","jquery","reactjs","vue.js"];
 
-console.log(a.splice(1,2)); //starting removal of elements 1 and deleteCount
+console.log(c.slice(1));
 
-console.log(a.splice(1,2,"kiwi"));
+console.log(c.slice(0,2));
+
+console.log(c.splice(1,2)); //starting removal of elements 1 and no. of elements -> 2
+
+console.log(c.splice(0,0,"bootstrap"));
+
+console.log(c);
+
