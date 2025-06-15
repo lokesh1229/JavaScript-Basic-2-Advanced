@@ -1,3 +1,5 @@
+
+// --> Dynamic Method export
 import { greet, calculate } from "./index.js";
 
 greet();
